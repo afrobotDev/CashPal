@@ -4,6 +4,10 @@ CREATE TABLE transactions(
   sender_id INTEGER,
   note TEXT,
   amount REAL,
-  was_successful BOOLEAN,
-  transaction_type TEXT
 );
+
+ALTER TABLE transactions
+ADD COLUMN was_successful BOOLEAN;
+
+ALTER TABLE transactions
+ADD COLUMN transaction_type TEXT;
