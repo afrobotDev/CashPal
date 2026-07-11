@@ -12,23 +12,39 @@ CREATE TABLE users(
   is_admin BOOLEAN,
   FOREIGN KEY(country_code) REFERENCES countries(code)
 );
-INSERT INTO countries(code,
-name)
-VALUES('US',
-'United States of America');
-INSERT INTO countries(code,
-name)
-VALUES('IN',
-'India');
-INSERT INTO users(id,
-name,
-country_code)
-VALUES(1,
-'Jerry',
-'US');
-INSERT INTO users(id,
-name,
-country_code)
-VALUES(2,
-'Amit',
-'IN');
+INSERT INTO countries(
+  code,
+  name
+)
+VALUES(
+  'US',
+  'United States of America'
+);
+INSERT INTO countries(
+  code,
+  name
+)
+VALUES(
+  'IN',
+  'India'
+);
+INSERT INTO users(
+  id,
+  name,
+  country_code
+)
+VALUES(
+  1,
+  'Jerry',
+  'US'
+);
+INSERT INTO users(
+  id,
+  name,
+  country_code
+)
+VALUES(
+  2,
+  'Amit',
+  'IN'
+);
