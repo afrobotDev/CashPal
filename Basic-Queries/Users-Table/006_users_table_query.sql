@@ -12,6 +12,6 @@ id  name     age  country_code  username    password      is_admin
 6   Allan    27   US            Alires      iLoveB00tdev  1       
 11  Albert   55   BR            BertDev     one_al_name   0       
 12  Alvin    27   US            AlvinA27    easter_egg    0       
-14  Alfonse  39   JP            quickCoder  snake_case    0  
+14  Alfonse  39   JP            quickCoder  snake_case    0 
 
 */
