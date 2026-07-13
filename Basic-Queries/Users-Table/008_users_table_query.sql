@@ -1,7 +1,7 @@
 SELECT
   *,
   IIF(
-    age > 55
+    age >= 55
     OR country_code = 'CA',
     10,
     0
